@@ -2,6 +2,9 @@
 
 A program to automatically submit your health status to SUSTech.
 
+A documentation explaining the entries in `config.json` is needed.
+Pull requests are welcomed.
+
 ## ⚠️ Warning 警告
 
 This program is used by myself for convenience, the quality of the program is not guaranteed, and the author of the program is NOT responsible for any consequence caused.
@@ -15,8 +18,13 @@ Use at your own risk.
 
 ## Usage
 
-First complete your information in `config.json`.
-Then run the following command
+### Constructing the `config.json`
+- Complete your information in `config.json` manually, or
+- Capture the request sent to SUSTech server using developer tools provided by browser, and fill the headers and form in `config.json` with captured data (recommended).
+
+## Run the submitter
 ```bash
 $ python3 /src/submitter.py config.json
 ```
+
+
