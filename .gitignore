@@ -188,3 +188,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,macos,python,windows,visualstudiocode
+
+.vscode/
+
+config.debug.json
