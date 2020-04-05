@@ -22,9 +22,9 @@ Use at your own risk.
 - Complete your information in `config.json` manually, or
 - Capture the request sent to SUSTech server using developer tools provided by browser, and fill the headers and form in `config.json` with captured data (recommended).
 
-## Run the submitter
+### Run the submitter
 ```bash
-$ python3 /src/submitter.py config.json
+$ python3 src/submitter.py config.json
 ```
 
 
