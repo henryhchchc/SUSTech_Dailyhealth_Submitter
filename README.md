@@ -1,5 +1,8 @@
 # SUSTech Daily Health Submitter
 
+**Update on June, 2020: This program no longer works since June 2, 2020 because the ITS of SUSTech changed the vailidity of the access token to be shorter than 24hrs. Which requires us to get a new access token every day.**
+
+
 A program to automatically submit your health status to SUSTech.
 
 A documentation explaining the entries in `config.json` is needed.
